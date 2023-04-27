@@ -10,6 +10,7 @@ public class frontend {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		backend[] std=new backend[n-1];
+		sc.close();
 		
 		//Create n number of new students
 		for(int i=0;i<n;i++) {

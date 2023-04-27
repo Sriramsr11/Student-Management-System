@@ -23,6 +23,7 @@ public class backend {
 	    System.out.println("1-Freshmen\n2-Sophmore\n3-Junior\n4-Senior\nEnter Student Class Level: ");
 	    gradeYear=sc.nextInt();
 	    Studentid();	     
+	    sc.close();
 	}	
 	//Generate an ID
 	private void Studentid() {
@@ -55,6 +56,7 @@ public class backend {
 		System.out.print("Enter Your Payment: $");
 		Scanner sc=new Scanner(System.in);
 		int p=sc.nextInt();
+		sc.close();
 		tuitionBalance=tuitionBalance-p;
 		System.out.println("Thank You for your payment of $"+p);
 		viewBalance();
